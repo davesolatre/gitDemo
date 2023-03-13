@@ -1,0 +1,482 @@
+# Created at 2023-02-21T14:12:03.504
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-02-21T14:12:04.359
+Unexpected IOException: 8,1,Ecommerce.test.ErrorValidationTest,lunchApplication(Ecommerce.test.ErrorValidationTest),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C get {url=https://rahulshettyacademy.com/client/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C get {url=https://rahulshettyacademy.com/client/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,ErrorValidationTest>BaseTest.lunchApplication:97 \00BB UnreachableBrowser Error co...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C get {url=https://rahulshettyacademy.com/client/}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a\000ACaused by: java.io.UncheckedIOException: java.io.IOException: An existing connection was forcibly closed by the remote host\000ACaused by: java.io.IOException: An existing connection was forcibly closed by the remote host\000A
+
+
+# Created at 2023-02-21T14:12:04.362
+Unexpected IOException: 5,1,Ecommerce.test.ErrorValidationTest,LoginErrorValidation(Ecommerce.test.ErrorValidationTest),ErrorHandling,null,null
+
+
+# Created at 2023-02-21T14:12:04.377
+Unexpected IOException: 8,1,Ecommerce.test.ErrorValidationTest,LoginErrorValidation(Ecommerce.test.ErrorValidationTest),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,ErrorValidationTest.LoginErrorValidation:24 \00BB UnreachableBrowser Error communi...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C findElement {using=id\002C value=userEmail}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a\000A\0009at Ecommerce.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:24)\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000A\0009at Ecommerce.test.ErrorValidationTest.LoginErrorValidation(ErrorValidationTest.java:24)\000ACaused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000ACaused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000ACaused by: java.net.ConnectException: Connection refused: no further information\000A
+
+
+# Created at 2023-02-21T14:12:04.391
+Unexpected IOException: 8,1,Ecommerce.test.ErrorValidationTest,tearDown(Ecommerce.test.ErrorValidationTest),null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,null,Error communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a,ErrorValidationTest>BaseTest.tearDown:103 \00BB UnreachableBrowser Error communica...,org.openqa.selenium.remote.UnreachableBrowserException: \000AError communicating with the remote browser. It may have died.\000ABuild info: version: '4.8.0'\002C revision: '267030adea'\000ASystem info: os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.17'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [848d356823754890d36056314a38332a\002C close {}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 110.0.5481.77\002C chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e...\002C userDataDir: C:\005CUsers\005CDave\005CAppData\005CLocal...}\002C goog:chromeOptions: {debuggerAddress: localhost:59962}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:cdp: ws://localhost:59962/devtoo...\002C se:cdpVersion: 110.0.5481.77\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 848d356823754890d36056314a38332a\000ACaused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000ACaused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000ACaused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:25120\000ACaused by: java.net.ConnectException: Connection refused: no further information\000A
+
+
+# Created at 2023-02-21T14:12:04.512
+Unexpected IOException with stream: S
+
+# Created at 2023-02-21T14:12:04.512
+Unexpected IOException with stream: t
+
+# Created at 2023-02-21T14:12:04.513
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.513
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.514
+Unexpected IOException with stream: t
+
+# Created at 2023-02-21T14:12:04.515
+Unexpected IOException with stream: i
+
+# Created at 2023-02-21T14:12:04.515
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.517
+Unexpected IOException with stream: g
+
+# Created at 2023-02-21T14:12:04.517
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.517
+Unexpected IOException with stream: C
+
+# Created at 2023-02-21T14:12:04.518
+Unexpected IOException with stream: h
+
+# Created at 2023-02-21T14:12:04.519
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.519
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.520
+Unexpected IOException with stream: m
+
+# Created at 2023-02-21T14:12:04.521
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.521
+Unexpected IOException with stream: D
+
+# Created at 2023-02-21T14:12:04.522
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.523
+Unexpected IOException with stream: i
+
+# Created at 2023-02-21T14:12:04.524
+Unexpected IOException with stream: v
+
+# Created at 2023-02-21T14:12:04.524
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.525
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.526
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.526
+Unexpected IOException with stream: 1
+
+# Created at 2023-02-21T14:12:04.527
+Unexpected IOException with stream: 1
+
+# Created at 2023-02-21T14:12:04.527
+Unexpected IOException with stream: 0
+
+# Created at 2023-02-21T14:12:04.528
+Unexpected IOException with stream: .
+
+# Created at 2023-02-21T14:12:04.529
+Unexpected IOException with stream: 0
+
+# Created at 2023-02-21T14:12:04.530
+Unexpected IOException with stream: .
+
+# Created at 2023-02-21T14:12:04.530
+Unexpected IOException with stream: 5
+
+# Created at 2023-02-21T14:12:04.531
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.532
+Unexpected IOException with stream: 8
+
+# Created at 2023-02-21T14:12:04.532
+Unexpected IOException with stream: 1
+
+# Created at 2023-02-21T14:12:04.533
+Unexpected IOException with stream: .
+
+# Created at 2023-02-21T14:12:04.534
+Unexpected IOException with stream: 7
+
+# Created at 2023-02-21T14:12:04.534
+Unexpected IOException with stream: 7
+
+# Created at 2023-02-21T14:12:04.535
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.536
+Unexpected IOException with stream: (
+
+# Created at 2023-02-21T14:12:04.536
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.537
+Unexpected IOException with stream: 5
+
+# Created at 2023-02-21T14:12:04.537
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.538
+Unexpected IOException with stream: d
+
+# Created at 2023-02-21T14:12:04.539
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.540
+Unexpected IOException with stream: 1
+
+# Created at 2023-02-21T14:12:04.541
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.541
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.542
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.542
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.543
+Unexpected IOException with stream: 8
+
+# Created at 2023-02-21T14:12:04.543
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.544
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.544
+Unexpected IOException with stream: 3
+
+# Created at 2023-02-21T14:12:04.545
+Unexpected IOException with stream: f
+
+# Created at 2023-02-21T14:12:04.545
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.546
+Unexpected IOException with stream: 0
+
+# Created at 2023-02-21T14:12:04.546
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.547
+Unexpected IOException with stream: d
+
+# Created at 2023-02-21T14:12:04.548
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.548
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.549
+Unexpected IOException with stream: f
+
+# Created at 2023-02-21T14:12:04.550
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.550
+Unexpected IOException with stream: 8
+
+# Created at 2023-02-21T14:12:04.551
+Unexpected IOException with stream: 3
+
+# Created at 2023-02-21T14:12:04.552
+Unexpected IOException with stream: 7
+
+# Created at 2023-02-21T14:12:04.553
+Unexpected IOException with stream: 9
+
+# Created at 2023-02-21T14:12:04.553
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.554
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.555
+Unexpected IOException with stream: 0
+
+# Created at 2023-02-21T14:12:04.556
+Unexpected IOException with stream: 2
+
+# Created at 2023-02-21T14:12:04.557
+Unexpected IOException with stream: 0
+
+# Created at 2023-02-21T14:12:04.558
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.560
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.560
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.561
+Unexpected IOException with stream: d
+
+# Created at 2023-02-21T14:12:04.562
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.563
+Unexpected IOException with stream: 2
+
+# Created at 2023-02-21T14:12:04.563
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.564
+Unexpected IOException with stream: f
+
+# Created at 2023-02-21T14:12:04.565
+Unexpected IOException with stream: -
+
+# Created at 2023-02-21T14:12:04.565
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.567
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.568
+Unexpected IOException with stream: f
+
+# Created at 2023-02-21T14:12:04.569
+Unexpected IOException with stream: s
+
+# Created at 2023-02-21T14:12:04.570
+Unexpected IOException with stream: /
+
+# Created at 2023-02-21T14:12:04.570
+Unexpected IOException with stream: b
+
+# Created at 2023-02-21T14:12:04.571
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.571
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.572
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.573
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.574
+Unexpected IOException with stream: h
+
+# Created at 2023-02-21T14:12:04.575
+Unexpected IOException with stream: -
+
+# Created at 2023-02-21T14:12:04.576
+Unexpected IOException with stream: h
+
+# Created at 2023-02-21T14:12:04.576
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.578
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.579
+Unexpected IOException with stream: d
+
+# Created at 2023-02-21T14:12:04.579
+Unexpected IOException with stream: s
+
+# Created at 2023-02-21T14:12:04.581
+Unexpected IOException with stream: /
+
+# Created at 2023-02-21T14:12:04.581
+Unexpected IOException with stream: 5
+
+# Created at 2023-02-21T14:12:04.582
+Unexpected IOException with stream: 4
+
+# Created at 2023-02-21T14:12:04.583
+Unexpected IOException with stream: 8
+
+# Created at 2023-02-21T14:12:04.584
+Unexpected IOException with stream: 1
+
+# Created at 2023-02-21T14:12:04.585
+Unexpected IOException with stream: @
+
+# Created at 2023-02-21T14:12:04.587
+Unexpected IOException with stream: {
+
+# Created at 2023-02-21T14:12:04.588
+Unexpected IOException with stream: #
+
+# Created at 2023-02-21T14:12:04.589
+Unexpected IOException with stream: 8
+
+# Created at 2023-02-21T14:12:04.590
+Unexpected IOException with stream: 3
+
+# Created at 2023-02-21T14:12:04.591
+Unexpected IOException with stream: 9
+
+# Created at 2023-02-21T14:12:04.592
+Unexpected IOException with stream: }
+
+# Created at 2023-02-21T14:12:04.593
+Unexpected IOException with stream: )
+
+# Created at 2023-02-21T14:12:04.594
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.595
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.595
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.596
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.597
+Unexpected IOException with stream: p
+
+# Created at 2023-02-21T14:12:04.597
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.598
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.598
+Unexpected IOException with stream: t
+
+# Created at 2023-02-21T14:12:04.599
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.599
+Unexpected IOException with stream: 3
+
+# Created at 2023-02-21T14:12:04.600
+Unexpected IOException with stream: 9
+
+# Created at 2023-02-21T14:12:04.601
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.602
+Unexpected IOException with stream: 6
+
+# Created at 2023-02-21T14:12:04.603
+Unexpected IOException with stream: 7
+
+# Created at 2023-02-21T14:12:04.604
+Unexpected IOException with stream: 
+
+# Created at 2023-02-21T14:12:04.604
+Unexpected IOException with stream: 
+
+
+# Created at 2023-02-21T14:12:04.605
+Unexpected IOException with stream: O
+
+# Created at 2023-02-21T14:12:04.607
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.607
+Unexpected IOException with stream: l
+
+# Created at 2023-02-21T14:12:04.608
+Unexpected IOException with stream: y
+
+# Created at 2023-02-21T14:12:04.608
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.609
+Unexpected IOException with stream: l
+
+# Created at 2023-02-21T14:12:04.609
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.610
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.611
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.612
+Unexpected IOException with stream: l
+
+# Created at 2023-02-21T14:12:04.612
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.613
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.614
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.615
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.615
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.616
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.617
+Unexpected IOException with stream: c
+
+# Created at 2023-02-21T14:12:04.617
+Unexpected IOException with stream: t
+
+# Created at 2023-02-21T14:12:04.618
+Unexpected IOException with stream: i
+
+# Created at 2023-02-21T14:12:04.619
+Unexpected IOException with stream: o
+
+# Created at 2023-02-21T14:12:04.620
+Unexpected IOException with stream: n
+
+# Created at 2023-02-21T14:12:04.620
+Unexpected IOException with stream: s
+
+# Created at 2023-02-21T14:12:04.621
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.622
+Unexpected IOException with stream: a
+
+# Created at 2023-02-21T14:12:04.623
+Unexpected IOException with stream: r
+
+# Created at 2023-02-21T14:12:04.624
+Unexpected IOException with stream: e
+
+# Created at 2023-02-21T14:12:04.625
+Unexpected IOException with stream:  
+
+# Created at 2023-02-21T14:12:04.626
+Unexpected IOException with stream: a
+

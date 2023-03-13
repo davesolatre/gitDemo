@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T15:47:30 SGT" name="Surefire suite" finished-at="2023-02-21T15:48:46 SGT" duration-ms="76550">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginErrorValidation()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" name="LoginErrorValidation" class="Ecommerce.test.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" name="submitOrder" class="Ecommerce.test.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2023-02-21T15:47:30 SGT" name="Surefire test" finished-at="2023-02-21T15:48:46 SGT" duration-ms="76550">
+      <class name="Ecommerce.test.SubmitOrderTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:47:58 SGT" name="lunchApplication" finished-at="2023-02-21T15:48:03 SGT" duration-ms="4684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:03 SGT" name="submitOrder" data-provider="getData" finished-at="2023-02-21T15:48:18 SGT" duration-ms="15032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dsolatre16, email=dsolatre@yahoo.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:18 SGT" name="tearDown" finished-at="2023-02-21T15:48:19 SGT" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:19 SGT" name="lunchApplication" finished-at="2023-02-21T15:48:24 SGT" duration-ms="5091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:24 SGT" name="submitOrder" data-provider="getData" finished-at="2023-02-21T15:48:39 SGT" duration-ms="15003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Dsolatre16, email=dave@yahoo.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:39 SGT" name="tearDown" finished-at="2023-02-21T15:48:39 SGT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:39 SGT" name="lunchApplication" finished-at="2023-02-21T15:48:45 SGT" duration-ms="5602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:45 SGT" name="OrderHistoryTest" finished-at="2023-02-21T15:48:46 SGT" depends-on-methods="Ecommerce.test.SubmitOrderTest.submitOrder" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.test.SubmitOrderTest@b62d79]" started-at="2023-02-21T15:48:46 SGT" name="tearDown" finished-at="2023-02-21T15:48:46 SGT" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.test.SubmitOrderTest -->
+      <class name="Ecommerce.test.ErrorValidationTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:30 SGT" name="lunchApplication" finished-at="2023-02-21T15:47:38 SGT" duration-ms="7775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:38 SGT" name="LoginErrorValidation" finished-at="2023-02-21T15:47:38 SGT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:38 SGT" name="tearDown" finished-at="2023-02-21T15:47:39 SGT" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:39 SGT" name="lunchApplication" finished-at="2023-02-21T15:47:44 SGT" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:44 SGT" name="ProductErrorValidation" finished-at="2023-02-21T15:47:58 SGT" duration-ms="13637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.test.ErrorValidationTest@26275bef]" started-at="2023-02-21T15:47:58 SGT" name="tearDown" finished-at="2023-02-21T15:47:58 SGT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.test.ErrorValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
